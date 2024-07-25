@@ -18,7 +18,7 @@ jobs:
         if: github.event.inputs.seed == '1'
         run: |
          chmod +x ./ratio-spoof
-         ./ratio-spoof -t fl.torrent -d 100% -ds 1053kbps -u 100% -us 0kbps -c qbit-6.5.3 -p 63857
+         ./ratio-spoof -t fl.torrent -d 100% -ds 1053kbps -u 100% -us 0kbps -c qbit-4.6.5 -p 63857
 
 
       - name: Seed MAM
