@@ -25,5 +25,5 @@ jobs:
         if: github.event.inputs.seed == '0'
         run: |
          chmod +x ./ratio-spoof
-         ./ratio-spoof -t cl.torrent -d 100% -ds 15983kbps -u 524.15gb -us 9974kbps -c qbit-4.6.5 -p 63857
+         ./ratio-spoof -t cl.torrent -d 100% -ds 15983kbps -u 730.56gb -us 9974kbps -c qbit-4.6.5 -p 63857
         
